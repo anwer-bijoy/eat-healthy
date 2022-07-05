@@ -9,6 +9,10 @@ h1 {
   color: rgb(94, 94, 94);
   font-weight: 900;
 }
+h2 {
+  font-size: 40px;
+  color: #636262;
+}
 .btn {
   text-decoration: none;
   font-size: 18px;
@@ -24,12 +28,12 @@ h1 {
 .orange-color {
   color: orange;
 }
-.banner-main {
+.flex-container {
   display: flex;
   width: 80%;
   margin: 50px auto;
 }
-.banner-item-left {
+.half-width {
   width: 50%;
 }
 .banner-item-left p {
@@ -37,9 +41,28 @@ h1 {
   color: gray;
   margin-bottom: 50px;
 }
-.banner-item-left {
-  width: 50%;
-}
 .banner-item-left img {
   width: 100%;
+}
+.about-me {
+  padding: 50px 0;
+  background-image: url(images/shapes/7.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.about-me-content {
+  padding: 0 10%;
+}
+.about-me-content p {
+  margin-bottom: 80px;
+  line-height: 1.5;
+  color: rgb(59, 59, 59);
+}
+.recipie-top h2 {
+  text-align: center;
+}
+.recipie-top p {
+  width: 35%;
+  margin: 20px auto;
+  text-align: center;
 }
