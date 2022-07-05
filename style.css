@@ -1,0 +1,45 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  padding: 0;
+  margin: 0;
+}
+h1 {
+  font-size: 50px;
+  line-height: 0.7;
+  color: rgb(94, 94, 94);
+  font-weight: 900;
+}
+.btn {
+  text-decoration: none;
+  font-size: 18px;
+  padding: 15px 30px;
+  color: white;
+  background-image: linear-gradient(90deg, orange, orangered);
+  border-radius: 30px;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  -ms-border-radius: 30px;
+  -o-border-radius: 30px;
+}
+.orange-color {
+  color: orange;
+}
+.banner-main {
+  display: flex;
+  width: 80%;
+  margin: 50px auto;
+}
+.banner-item-left {
+  width: 50%;
+}
+.banner-item-left p {
+  font-size: 18px;
+  color: gray;
+  margin-bottom: 50px;
+}
+.banner-item-left {
+  width: 50%;
+}
+.banner-item-left img {
+  width: 100%;
+}
